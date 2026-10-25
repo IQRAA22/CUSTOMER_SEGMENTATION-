@@ -52,18 +52,10 @@ This project segments retail customers into distinct groups without any labels. 
 - **27 components** were needed to keep 95% of the variance.
 - For clustering and visualization, the data was reduced to **3 components**, which together explain **35.8%** of the variance (PC1: 23.2%, PC2: 7.2%, PC3: 5.4%).
 
-![PCA Variance](images/pca_variance.png)
-
 ### 5. Choosing K — Elbow Method & Silhouette Score
 K-Means was run for K = 2 to 10. Within the practical range for personas (K = 3 to 6), **K = 3** gave the highest Silhouette Score, which also matched the bend in the Elbow curve.
 
-![Elbow and Silhouette](images/elbow_silhouette.png)
-
 ### 6. K-Means Clustering (K = 3)
-
-![Clusters](images/clusters.png)
-
----
 
 ## 👥 Customer Personas
 
@@ -79,7 +71,6 @@ K-Means was run for K = 2 to 10. Within the practical range for personas (K = 3 
 | Avg. Deal Purchases | 1.2 | 2.0 | **3.8** |
 | Avg. Web Visits / Month | 2.8 | **6.4** | 5.7 |
 
-![Personas](images/personas.png)
 
 ### Who they are & what to do
 
