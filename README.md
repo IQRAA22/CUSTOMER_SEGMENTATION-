@@ -1,7 +1,5 @@
 # Customer Segmentation — Unsupervised Learning with PCA & K-Means
 
-**DecodeLabs Data Science Industrial Training — Project 3 (Batch 2026)**
-
 This project segments retail customers into distinct groups without any labels. It scales the data, reduces 30+ columns with Principal Component Analysis (PCA), uses the Elbow Method and Silhouette Score to choose the number of clusters, applies K-Means, and translates each cluster into a business persona with a marketing action.
 
 ---
@@ -70,7 +68,6 @@ K-Means was run for K = 2 to 10. Within the practical range for personas (K = 3 
 | Avg. Total Purchases | 20.8 | 8.0 | 21.1 |
 | Avg. Deal Purchases | 1.2 | 2.0 | **3.8** |
 | Avg. Web Visits / Month | 2.8 | **6.4** | 5.7 |
-
 
 ### Who they are & what to do
 
